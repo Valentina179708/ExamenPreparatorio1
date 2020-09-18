@@ -17,12 +17,14 @@ namespace ExamenP1.Controllers
         private DataContext db = new DataContext();
 
         // GET: api/gemios
+        [Authorize]
         public IQueryable<gemio> Getgemios()
         {
             return db.gemios;
         }
 
         // GET: api/gemios/5
+        [Authorize]
         [ResponseType(typeof(gemio))]
         public IHttpActionResult Getgemio(int id)
         {
@@ -36,6 +38,7 @@ namespace ExamenP1.Controllers
         }
 
         // PUT: api/gemios/5
+        [Authorize]
         [ResponseType(typeof(void))]
         public IHttpActionResult Putgemio(int id, gemio gemio)
         {
@@ -71,6 +74,7 @@ namespace ExamenP1.Controllers
         }
 
         // POST: api/gemios
+        [Authorize]
         [ResponseType(typeof(gemio))]
         public IHttpActionResult Postgemio(gemio gemio)
         {
@@ -86,6 +90,7 @@ namespace ExamenP1.Controllers
         }
 
         // DELETE: api/gemios/5
+        [Authorize]
         [ResponseType(typeof(gemio))]
         public IHttpActionResult Deletegemio(int id)
         {
