@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamenP1", "ExamenP1\ExamenP1.csproj", "{C3FFC696-C852-4011-8DBE-4ED492E29EDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "admGemio", "admGemio\admGemio.csproj", "{4D7FF379-8B36-4D8A-B05C-967DC2DAE250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gemio.Tests", "Gemio.Tests\Gemio.Tests.csproj", "{22FFA336-9A5C-45E9-9DB4-02F1873750D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C3FFC696-C852-4011-8DBE-4ED492E29EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3FFC696-C852-4011-8DBE-4ED492E29EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3FFC696-C852-4011-8DBE-4ED492E29EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D7FF379-8B36-4D8A-B05C-967DC2DAE250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7FF379-8B36-4D8A-B05C-967DC2DAE250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7FF379-8B36-4D8A-B05C-967DC2DAE250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D7FF379-8B36-4D8A-B05C-967DC2DAE250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22FFA336-9A5C-45E9-9DB4-02F1873750D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FFA336-9A5C-45E9-9DB4-02F1873750D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FFA336-9A5C-45E9-9DB4-02F1873750D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FFA336-9A5C-45E9-9DB4-02F1873750D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
